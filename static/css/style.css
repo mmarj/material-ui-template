@@ -1,0 +1,49 @@
+/* --------------------------- Your Styles --------------------------- */
+
+/* ------------------------- x Your Styles x ------------------------- */
+
+/* --------------------------- Materialize Overrides --------------------------- */
+header, main, footer {
+    padding-left: 240px;
+}
+nav.top-nav {
+    height: auto;
+}
+nav.top-nav .button-collapse i {
+    line-height: 3.2em;
+    height: auto;
+    padding-right: 15px;
+}
+nav.top-nav a.page-title {
+    font-size: 48px;
+    line-height: 122px;
+}
+ul.side-nav.fixed {
+    width: 240px;
+    left: 0px;
+}
+ul.side-nav.fixed li.logo {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+ul.side-nav.fixed li.logo:hover {
+    background-color: transparent;
+}
+ul.side-nav.fixed li.logo .brand-logo {
+    height : auto;
+    line-height: 0px;
+}
+ul.side-nav.fixed li.logo .brand-logo img {
+    width: 100%;
+}
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+@media only screen and (min-width : 601px) {
+    .container {
+        width: 85%;
+    }
+}
+/* ------------------------- x Materialize Overrides x ------------------------- */

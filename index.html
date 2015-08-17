@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Materialize Template</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<header>
+    <ul id="nav-mobile" class="side-nav fixed">
+        <li class="logo">
+            <a id="logo-container" href="#" class="brand-logo">
+                <img src="/static/images/logo.png"/>
+            </a>
+        </li>
+
+        <li class="bold"><a href="#" class="waves-effect waves-teal">About</a></li>
+        <li class="bold"><a href="#" class="waves-effect waves-teal">Getting Started</a></li>
+        <li class="bold"><a href="#" class="waves-effect waves-teal">Mobile</a></li>
+        <li class="bold"><a href="#" class="waves-effect waves-teal">Showcase</a></li>
+    </ul>
+</header>
+
+<main>
+    <nav class="top-nav blue-grey darken-2">
+        <div class="container">
+            <a class="button-collapse top-nav full hide-on-large-only" data-activates="nav-mobile" href="#">
+                <i class="material-icons">reorder</i>
+            </a>
+
+            <div class="nav-wrapper"><a class="page-title">Template</a></div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br><br>
+        <h1 class="header center teal-text">Starter Template</h1>
+        <div class="row center">
+            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+            <a href="http://materializecss.com" target="_blank" class="btn-large waves-effect waves-light teal">Get Started</a>
+        </div>
+        <br><br>
+
+    </div>
+</main>
+
+
+<footer class="page-footer teal">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Company Bio</h5>
+                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Settings</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            &bull;
+            Modified by <a class="orange-text text-lighten-3" href="http://github.com/atulmy">@atulmy</a>
+        </div>
+    </div>
+
+    <!--  Scripts-->
+    <script src="/static/js/jquery-1.11.3.min.js"></script>
+    <script src="/static/js/materialize.min.js"></script>
+    <script>
+        $(function(){
+
+            $('.button-collapse').sideNav();
+
+        }); // end of document ready
+    </script>
+</footer>
+
+</body>
+</html>
