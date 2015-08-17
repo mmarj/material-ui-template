@@ -1,6 +1,6 @@
 # Material UI Template
 
-Demo: http://tools.atulmy.com/materialze-ui-template/
+Demo: http://tools.atulmy.com/material-ui-template/
 
 ## Made with Materializecss
 
