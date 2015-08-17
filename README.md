@@ -2,6 +2,8 @@
 
 Demo: http://tools.atulmy.com/material-ui-template/
 
+![loading screenshot](http://tools.atulmy.com/material-ui-template/static/images/materialize-ui-template.png)]
+
 ## Made with Materializecss
 
 https://github.com/Dogfalo/materialize
